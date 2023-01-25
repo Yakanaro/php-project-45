@@ -18,13 +18,11 @@ function makeProgression(int $numberOfRound): array
         for ($i = $firstRandomNumberAccepted; count($proposedArray) <= $randomLongArray; $i += 2) {
             $proposedArray[] = $i;
         }
-    }
-    elseif ($numberOfRound == 1) {
+    } elseif ($numberOfRound == 1) {
         for ($i = $firstRandomNumberAccepted; count($proposedArray) <= $randomLongArray; $i += 3) {
             $proposedArray[] = $i;
         }
-    }
-    elseif ($numberOfRound == 2) {
+    } elseif ($numberOfRound == 2) {
         for ($i = $firstRandomNumberAccepted; count($proposedArray) <= $randomLongArray; $i += 5) {
             $proposedArray[] = $i;
         }

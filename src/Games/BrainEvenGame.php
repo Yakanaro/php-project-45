@@ -26,8 +26,7 @@ function runEven()
         if (isEven($number)) {
             $numberAndAnswer[$i]['question'] = $number;
             $numberAndAnswer[$i]['answer'] = 'yes';
-        }
-        else {
+        } else {
             $numberAndAnswer[$i]['question'] = $number;
             $numberAndAnswer[$i]['answer'] = 'no';
         }

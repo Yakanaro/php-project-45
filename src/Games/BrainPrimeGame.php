@@ -26,8 +26,7 @@ function runIsItPrimeNumber()
         $numbersAndAnswer["{$i}"]['question'] = "{$randNumber}";
         if (isPrime($randNumber) == true) {
             $numbersAndAnswer[$i]['answer'] = 'yes';
-        }
-        else {
+        } else {
             $numbersAndAnswer[$i]['answer'] = 'no';
         }
     }
