@@ -20,7 +20,7 @@ function runGame(string $gameConditions, array $acceptedQuestionAndResponse)
         if ($userResponse != $value['answer']) {
             line($ifUserResponseIncorrectPartOne . $ifUserResponseIncorrectPartTwo);
             exit;
-        }else {
+        } else {
             line("Correct!");
         }
     }

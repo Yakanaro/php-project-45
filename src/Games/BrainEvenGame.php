@@ -12,8 +12,7 @@ function isEven(int $acceptedNumber): bool
 {
     if ($acceptedNumber % 2 == 0) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
